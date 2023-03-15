@@ -15,6 +15,9 @@ int main(){
 
     printf("A OR(|) B is %d\n",C);
 
+    C = ~A;
+    printf("If A is %d, then ~A(NOT A) is %d\n",A,C);
+
     return 0;
 }
 
