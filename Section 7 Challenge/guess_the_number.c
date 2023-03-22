@@ -30,7 +30,7 @@ int main(){
     printf("I have chosen a number between 0 and 20 which you must guess.\n");
     
     while(guesses != 0){
-        printf("You have %d tries left.\n",guesses);
+        printf("You have %d tr%s left.\n",guesses,guesses == 1 ? "y" : "ies");
         
         while((guess < 0) || (guess > 20)){
             printf("Enter a guess: ");
